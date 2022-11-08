@@ -1,0 +1,393 @@
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page1{
+    width: 100%;
+    background:url(/pictures/background\ image\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid rgb(34, 33, 33);
+}
+.netflixName{
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+.signIn{
+    height: 40px;
+    width: 96px;
+    font-size: 17px;
+    color: white;
+    background-color: red;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 4px;
+    position: absolute;
+    right: 60px;
+    top: 32px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 157px 10px;
+}
+.p1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.p2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.p3{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.emailButton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emailButton input{
+    width: 400px;
+    height: 49px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 20px;
+    flex-shrink: 1;
+}
+.emailButton button{
+   height: 49px;
+   width: 190px;
+   background-color: red;
+   color: white;
+   font-size: 24px;
+   border: none;
+   cursor: pointer;
+   flex-shrink: 0;
+}
+.emailButton button:hover{
+    background-color: rgb(246, 10, 10);
+}
+
+.emailButton input::placeholder{
+    font-size: 20px;
+    line-height: 49px;
+}
+.page2{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid rgb(34, 33, 33);
+    flex-wrap: wrap;
+    padding: 150px 20px;
+}
+.page2 .tv{
+    width: 500px;
+    padding: 5px;
+}
+.p4{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.p5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;  
+}
+.tvImage{
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+.tvImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;  
+}
+.tvImage video{
+position: absolute;
+height: 210px;
+width: 370px;
+object-fit: cover;
+right: 64px;
+top: 40px;
+position: absolute;
+z-index: 1;
+}
+.page3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 100px 10px;
+    border-bottom: 7px solid rgb(34, 33, 33);
+}
+.stranger{
+    position: relative;
+}
+.stranger img{
+    width: 500px;
+}
+.box{
+    position: absolute;
+    width: 330px;
+    height: 90px;
+    background-color: aqua;
+    bottom: 22px;
+    left: 83px;
+    border-radius: 9px;
+    border:  2px solid rgb(34, 33, 33);
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.box img{
+    height: 70px;
+    width: 50px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+.p6{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.p7{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.page4{
+    width: 100%;
+    padding: 100px 20px;
+    background-color: black;
+    border-bottom: 7px solid rgb(34, 33, 33);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.page4 img{
+width: 500px;
+height: 380px;
+object-fit: cover;
+object-position: center;
+}
+.p8{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.p9{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.page5{
+    padding: 20px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: 7px solid rgb(34, 33, 33);
+}
+.page5 .h1{
+    margin: 20px 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.question{
+    width: 70%;
+    height: 70px;
+    text-align: start;
+    font-size: 26px;
+    background-color: #303030;
+    padding:0 30px;
+    position: relative;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1px;
+}
+.answer{
+    color: white;
+    width: 70%;
+    background-color: #303030;
+    font-size: 26px;
+    padding: 30px;
+    display: none;
+    transition: 0.2s ease-out;
+}
+.page5 .fam{
+    position: absolute;
+    right: 15px;
+    font-size: 50px;
+    bottom: 8px;
+}
+.active{
+    display: block;
+}
+.page6{
+    background-color: black;
+    width: 100%;
+    padding: 80px 60px 80px 100px;
+}
+.page6 p{
+    color: #878585;
+}
+.page6 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.page6 ul li{
+    color: #878585;
+    width: 220px;
+    margin: 5px 0;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+.page6 ul li:hover{
+
+    text-decoration: underline;
+}
+
+/* for tablet */
+@media screen and (max-width:1055px)
+{
+   .page3{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+   }
+   .stranger{
+    margin-bottom: 30px;
+   }
+   .page4{
+    flex-wrap: wrap;
+   }
+   .page6{
+    padding: 80px 0px 80px 100px;
+}
+}
+@media screen and (max-width:768px)
+{
+    .netflixName{
+        height: 70px;
+    }
+    .signIn{
+        height: 30px;
+        width: 76px;
+        font-size: 15px;
+    }
+    .p1{
+        font-size: 40px;
+    }
+    .p2{
+        font-size: 25px;
+    }
+    .p3{
+        font-size: 18px;
+    }
+    .emailButton{
+        flex-direction: column;
+    }
+    .emailButton input{
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .emailButton input::placeholder{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .emailButton button{
+        height: 40px;
+        font-size: 20px;
+    }
+
+
+    .page2{
+        padding: 100px 10px;
+    }
+    .page2 .tv{
+        margin-bottom: 50px;
+    }
+    .p4{
+        font-size: 40px;
+    }
+    .p5{
+        font-size: 20px;
+    }
+
+    .p6,.p8{
+        font-size: 40px;
+    }
+    .p7,.p9{
+        font-size: 20px;
+    }
+    .page5 .h1{
+        font-size: 40px;
+    }
+    .question{
+        width: 100%;
+        font-size: 20px;
+    }
+    .answer{
+        width: 100%;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
